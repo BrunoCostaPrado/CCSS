@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <title>Bruno</title>
+  </head>
+  <body class="body">
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <div class="tab">
+      <button class="tablinks" onclick="Button(event, 'Bruno')">Bruno</button>
+      <button class="tablinks" onclick="Button(event, 'Linguas')">Linguas</button>
+      <button class="tablinks" onclick="Button(event, 'Educação')">Educação</button>
+    </div>
+    
+    <div id="Bruno" class="tabcontent">
+      <h3>Sobre mim</h3>
+      <p>Bruno Costa Prado, nascido em 16 de maio de 2003.</p>
+      <p>Atualmente moro em São Paulo, entusiasta da computação, estudande de Engenharia de Software</p>
+    </div>
+    <div id="Linguas" class="tabcontent">
+      <h3>Linguagens</h3>
+      <p>Linguagens que possuo conhecimento:</p>
+      <p>
+        C++ <img src="https://img.icons8.com/color/50/000000/c-plus-plus-logo.png">,
+        Python<img src="https://img.icons8.com/color/50/000000/python--v1.png" >,
+        JavaScript<img src="https://img.icons8.com/color/48/000000/javascript--v1.png">,
+        HTML5<img src="https://img.icons8.com/color/48/000000/html-5--v1.png">
+        CSS<img src="https://img.icons8.com/color/48/000000/css3.png" >
+        SASS <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg">
+      </p>
+    </div>
+
+    <div id="Educação" class="tabcontent">
+      <h3>Educação</h3>
+      <p>Formado em tecnico em eletronica pela ETEC Albert Einstein(2018/2020)</p>
+      <p>Engenharia de Software pela faculdade Estacio de Sa</p>
+    </div>
+
+
+    </div>
+  </body>
+</html>
